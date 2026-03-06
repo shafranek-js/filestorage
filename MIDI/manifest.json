@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAtIso": "2026-03-06T10:26:58Z",
+  "generatedAtIso": "2026-03-06T12:13:41Z",
   "melodies": [
     {
       "id": "builtin:guitar:fur_elise_tabs",
@@ -31,10 +31,10 @@
       "sourceFormat": "mscz"
     },
     {
-      "id": "builtin:guitar:romanza_anonima_tabs",
-      "name": "Romanza Anonima Tabs",
+      "id": "builtin:guitar:romanza_anonim_tabs",
+      "name": "Romanza Anonim Tabs",
       "instrumentName": "guitar",
-      "fileName": "Romanza Anonima (tabs).mscz",
+      "fileName": "Romanza Anonimо (tabs).mscz",
       "sourceFormat": "mscz"
     },
     {

@@ -1,12 +1,54 @@
 {
   "version": 1,
-  "generatedAtIso": "2026-03-06T15:53:09Z",
+  "generatedAtIso": "2026-03-06T19:38:53Z",
   "melodies": [
+    {
+      "id": "builtin:guitar:agua_de_beber_tabs",
+      "name": "Agua De Beber Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Agua de Beber (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:amazing_grace_tabs",
+      "name": "Amazing Grace Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Amazing Grace (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:chodjat_koni_tabs",
+      "name": "Chodjat Koni Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Chodjat koni (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:deck_the_halls_tabs",
+      "name": "Deck The Halls Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Deck The Halls (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:el_condor_pasa_tab",
+      "name": "El Condor Pasa Tab",
+      "instrumentName": "guitar",
+      "fileName": "El condor pasa (tab).mscz",
+      "sourceFormat": "mscz"
+    },
     {
       "id": "builtin:guitar:fur_elise_tabs",
       "name": "Fur Elise Tabs",
       "instrumentName": "guitar",
       "fileName": "Fur Elise (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:garota_de_ipanema_tabs",
+      "name": "Garota De Ipanema Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Garota De Ipanema (tabs).mscz",
       "sourceFormat": "mscz"
     },
     {
@@ -31,10 +73,45 @@
       "sourceFormat": "mscz"
     },
     {
+      "id": "builtin:guitar:i_cant_help_falling_in_love_tabs",
+      "name": "I Cant Help Falling In Love Tabs",
+      "instrumentName": "guitar",
+      "fileName": "I Cant Help Falling in Love (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:jingle_bell_rock_tabs",
+      "name": "Jingle Bell Rock Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Jingle Bell Rock (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:memoria_da_noite_tabs",
+      "name": "Memoria Da Noite Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Memoria da Noite (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
       "id": "builtin:guitar:mo_li_hua_tabs",
       "name": "Mo Li Hua Tabs",
       "instrumentName": "guitar",
       "fileName": "Mo Li Hua (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:my_way_tabs",
+      "name": "My Way Tabs",
+      "instrumentName": "guitar",
+      "fileName": "My Way (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:nich_jaka_misjachna_tabs",
+      "name": "Nich Jaka Misjachna Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Nich jaka misjachna (tabs).mscz",
       "sourceFormat": "mscz"
     },
     {
@@ -45,10 +122,38 @@
       "sourceFormat": "mscz"
     },
     {
+      "id": "builtin:guitar:oh_danny_boy_tabs",
+      "name": "Oh Danny Boy Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Oh Danny Boy (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:oj_u_luzi_cervona_kalyna_tabs",
+      "name": "Oj U Luzi Cervona Kalyna Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Oj u luzi cervona kalyna (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:priscilla_song_tabs",
+      "name": "Priscilla Song Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Priscilla song (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
       "id": "builtin:guitar:romanza_anonim_tabs",
       "name": "Romanza Anonim Tabs",
       "instrumentName": "guitar",
       "fileName": "Romanza Anonimо (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:santa_lucia_tabs",
+      "name": "Santa Lucia Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Santa Lucia (tabs).mscz",
       "sourceFormat": "mscz"
     },
     {
@@ -59,6 +164,27 @@
       "sourceFormat": "mscz"
     },
     {
+      "id": "builtin:guitar:silent_night_tabs",
+      "name": "Silent Night Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Silent Night (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:sk_tune_tabs",
+      "name": "Sk Tune Tabs",
+      "instrumentName": "guitar",
+      "fileName": "SK tune (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:son_do_ar_tabs",
+      "name": "Son Do Ar Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Son Do Ar (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
       "id": "builtin:guitar:summer_time_tabs",
       "name": "Summer Time Tabs",
       "instrumentName": "guitar",
@@ -66,10 +192,38 @@
       "sourceFormat": "mscz"
     },
     {
+      "id": "builtin:guitar:the_godfather_piano_tabs",
+      "name": "The Godfather Piano Tabs",
+      "instrumentName": "guitar",
+      "fileName": "The Godfather Piano (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
       "id": "builtin:guitar:twinkle_tabs",
       "name": "Twinkle Tabs",
       "instrumentName": "guitar",
       "fileName": "Twinkle (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:we_wish_you_a_merry_christmas_tabs",
+      "name": "We Wish You A Merry Christmas Tabs",
+      "instrumentName": "guitar",
+      "fileName": "We wish you a merry christmas (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:wellerman_tabs",
+      "name": "Wellerman Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Wellerman (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:what_shall_we_do_with_a_drunken_sailor_tabs",
+      "name": "What Shall We Do With A Drunken Sailor Tabs",
+      "instrumentName": "guitar",
+      "fileName": "What Shall We Do With A Drunken Sailor tabs.mscz",
       "sourceFormat": "mscz"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAtIso": "2026-03-06T12:25:26Z",
+  "generatedAtIso": "2026-03-06T14:09:37Z",
   "melodies": [
     {
       "id": "builtin:guitar:fur_elise_tabs",
@@ -14,6 +14,13 @@
       "name": "Greensleeves Tabs",
       "instrumentName": "guitar",
       "fileName": "Greensleeves (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:happy_birthday_to_you_tabs",
+      "name": "Happy Birthday To You Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Happy Birthday To You (tabs).mscz",
       "sourceFormat": "mscz"
     },
     {

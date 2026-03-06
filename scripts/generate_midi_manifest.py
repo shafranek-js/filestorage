@@ -8,6 +8,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+SUPPORTED_LIBRARY_SUFFIXES: dict[str, str] = {
+    ".mid": "midi",
+    ".mscz": "mscz",
+    ".mscx": "mscx",
+}
+
 
 def _to_slug(text: str) -> str:
     lowered = text.strip().lower()
@@ -55,6 +61,11 @@ def _normalize_existing_entry(entry: dict[str, Any]) -> dict[str, Any]:
     return normalized
 
 
+def _resolve_source_format(path: Path) -> str:
+    suffix = path.suffix.lower()
+    return SUPPORTED_LIBRARY_SUFFIXES.get(suffix, "midi")
+
+
 def build_manifest(midi_dir: Path, now_iso: str) -> dict[str, Any]:
     manifest_path = midi_dir / "manifest.json"
     existing_manifest: dict[str, Any] = {}
@@ -73,31 +84,37 @@ def build_manifest(midi_dir: Path, now_iso: str) -> dict[str, Any]:
             continue
         existing_entries[file_name.strip().lower()] = _normalize_existing_entry(raw)
 
-    midi_files = sorted(
-        [path for path in midi_dir.rglob("*.mid") if path.is_file()],
+    library_files = sorted(
+        [
+            path
+            for path in midi_dir.rglob("*")
+            if path.is_file() and path.suffix.lower() in SUPPORTED_LIBRARY_SUFFIXES
+        ],
         key=lambda file_path: file_path.as_posix().lower(),
     )
 
     entries: list[dict[str, Any]] = []
-    for midi_file in midi_files:
-        file_name = midi_file.name
+    for library_file in library_files:
+        file_name = library_file.name
+        inferred_source_format = _resolve_source_format(library_file)
         existing = existing_entries.get(file_name.lower())
         if existing:
             entry = dict(existing)
             entry["fileName"] = file_name
         else:
-            instrument_name = _infer_instrument(midi_file.relative_to(midi_dir))
+            instrument_name = _infer_instrument(library_file.relative_to(midi_dir))
             entry_id, entry_name = _derive_defaults(file_name, instrument_name)
             entry = {
                 "id": entry_id,
                 "name": entry_name,
                 "instrumentName": instrument_name,
                 "fileName": file_name,
+                "sourceFormat": inferred_source_format,
             }
 
         instrument_name = str(entry.get("instrumentName") or "").strip().lower()
         if instrument_name not in {"guitar", "ukulele"}:
-            instrument_name = _infer_instrument(midi_file.relative_to(midi_dir))
+            instrument_name = _infer_instrument(library_file.relative_to(midi_dir))
 
         entry_id = str(entry.get("id") or "").strip()
         entry_name = str(entry.get("name") or "").strip()
@@ -107,12 +124,16 @@ def build_manifest(midi_dir: Path, now_iso: str) -> dict[str, Any]:
         if not entry_name:
             _, inferred_name = _derive_defaults(file_name, instrument_name)
             entry_name = inferred_name
+        source_format = str(entry.get("sourceFormat") or "").strip().lower()
+        if source_format not in {"midi", "mscx", "mscz"}:
+            source_format = inferred_source_format
 
         normalized: dict[str, Any] = {
             "id": entry_id,
             "name": entry_name,
             "instrumentName": instrument_name,
             "fileName": file_name,
+            "sourceFormat": source_format,
         }
 
         if isinstance(entry.get("sourceTempoBpm"), (int, float)):

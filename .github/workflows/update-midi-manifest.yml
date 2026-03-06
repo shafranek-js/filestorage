@@ -7,6 +7,10 @@ on:
     paths:
       - "MIDI/**/*.mid"
       - "MIDI/*.mid"
+      - "MIDI/**/*.mscz"
+      - "MIDI/*.mscz"
+      - "MIDI/**/*.mscx"
+      - "MIDI/*.mscx"
       - "scripts/generate_midi_manifest.py"
       - ".github/workflows/update-midi-manifest.yml"
   workflow_dispatch:

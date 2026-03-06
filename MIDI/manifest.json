@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "generatedAtIso": "2026-03-06T07:10:03.628Z",
+  "melodies": [
+    {
+      "id": "builtin:guitar:fur_elise",
+      "name": "Fur Elise",
+      "instrumentName": "guitar",
+      "fileName": "builtin_guitar_fur_elise.mid",
+      "sourceTempoBpm": 96
+    },
+    {
+      "id": "builtin:guitar:greensleeves",
+      "name": "Greensleeves",
+      "instrumentName": "guitar",
+      "fileName": "builtin_guitar_greensleeves.mid",
+      "sourceTempoBpm": 88
+    },
+    {
+      "id": "builtin:guitar:mo_li_hua",
+      "name": "Mo Li Hua",
+      "instrumentName": "guitar",
+      "fileName": "builtin_guitar_mo_li_hua.mid",
+      "sourceTempoBpm": 90
+    },
+    {
+      "id": "builtin:guitar:ode_to_joy_intro",
+      "name": "Ode to Joy",
+      "instrumentName": "guitar",
+      "fileName": "builtin_guitar_ode_to_joy_intro.mid",
+      "sourceTempoBpm": 140
+    },
+    {
+      "id": "builtin:guitar:romanza_anonimo",
+      "name": "Romanza Anonimo",
+      "instrumentName": "guitar",
+      "fileName": "builtin_guitar_romanza_anonimo.mid",
+      "sourceTempoBpm": 84
+    },
+    {
+      "id": "builtin:guitar:scarborough_fair",
+      "name": "Scarborough Fair",
+      "instrumentName": "guitar",
+      "fileName": "builtin_guitar_scarborough_fair.mid",
+      "sourceTempoBpm": 72,
+      "sourceTimeSignature": "3/4"
+    },
+    {
+      "id": "builtin:guitar:twinkle_phrase",
+      "name": "Twinkle Twinkle Little Star",
+      "instrumentName": "guitar",
+      "fileName": "builtin_guitar_twinkle_phrase.mid",
+      "sourceTempoBpm": 100
+    },
+    {
+      "id": "builtin:ukulele:ode_to_joy_intro",
+      "name": "Ode to Joy",
+      "instrumentName": "ukulele",
+      "fileName": "builtin_ukulele_ode_to_joy_intro.mid",
+      "sourceTempoBpm": 140
+    },
+    {
+      "id": "builtin:ukulele:twinkle_phrase",
+      "name": "Twinkle Twinkle Little Star",
+      "instrumentName": "ukulele",
+      "fileName": "builtin_ukulele_twinkle_phrase.mid",
+      "sourceTempoBpm": 100
+    }
+  ]
+}

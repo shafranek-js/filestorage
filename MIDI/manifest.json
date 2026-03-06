@@ -1,27 +1,13 @@
 {
   "version": 1,
-  "generatedAtIso": "2026-03-06T08:42:35Z",
+  "generatedAtIso": "2026-03-06T09:24:19Z",
   "melodies": [
-    {
-      "id": "builtin:guitar:fur_elise",
-      "name": "Fur Elise",
-      "instrumentName": "guitar",
-      "fileName": "Fur elise.mscz",
-      "sourceFormat": "mscz"
-    },
     {
       "id": "builtin:guitar:fur_elise_mid",
       "name": "Fur Elise Mid",
       "instrumentName": "guitar",
       "fileName": "Fur Elise (mid).mid",
       "sourceFormat": "midi"
-    },
-    {
-      "id": "builtin:guitar:fur_elise_tab",
-      "name": "Fur Elise Tab",
-      "instrumentName": "guitar",
-      "fileName": "Fur elise (tab).mscz",
-      "sourceFormat": "mscz"
     },
     {
       "id": "builtin:guitar:greensleeves",

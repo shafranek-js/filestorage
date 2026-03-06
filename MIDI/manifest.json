@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAtIso": "2026-03-06T14:09:37Z",
+  "generatedAtIso": "2026-03-06T15:42:47Z",
   "melodies": [
     {
       "id": "builtin:guitar:fur_elise_tabs",
@@ -21,6 +21,13 @@
       "name": "Happy Birthday To You Tabs",
       "instrumentName": "guitar",
       "fileName": "Happy Birthday To You (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:hedwig_s_theme_tabs",
+      "name": "Hedwig S Theme Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Hedwig's Theme (tabs).mscz",
       "sourceFormat": "mscz"
     },
     {

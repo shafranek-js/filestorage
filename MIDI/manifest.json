@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAtIso": "2026-03-06T15:42:47Z",
+  "generatedAtIso": "2026-03-06T15:53:09Z",
   "melodies": [
     {
       "id": "builtin:guitar:fur_elise_tabs",
@@ -56,6 +56,13 @@
       "name": "Scarborough Fair Tabs",
       "instrumentName": "guitar",
       "fileName": "Scarborough Fair (tabs).mscz",
+      "sourceFormat": "mscz"
+    },
+    {
+      "id": "builtin:guitar:summer_time_tabs",
+      "name": "Summer Time Tabs",
+      "instrumentName": "guitar",
+      "fileName": "Summer Time (tabs).mscz",
       "sourceFormat": "mscz"
     },
     {

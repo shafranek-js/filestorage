@@ -1,0 +1,55 @@
+name: Update Scales Manifest
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "MIDI/Scales/**/*.gp"
+      - "MIDI/Scales/*.gp"
+      - "MIDI/Scales/**/*.gp3"
+      - "MIDI/Scales/*.gp3"
+      - "MIDI/Scales/**/*.gp4"
+      - "MIDI/Scales/*.gp4"
+      - "MIDI/Scales/**/*.gp5"
+      - "MIDI/Scales/*.gp5"
+      - "MIDI/Scales/**/*.gpx"
+      - "MIDI/Scales/*.gpx"
+      - "MIDI/Scales/**/*.gp7"
+      - "MIDI/Scales/*.gp7"
+      - "scripts/generate_scales_manifest.py"
+      - ".github/workflows/update-scales-manifest.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate-manifest:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Regenerate scales manifest
+        run: python scripts/generate_scales_manifest.py
+
+      - name: Commit manifest updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add MIDI/Scales/manifest.json
+          if git diff --cached --quiet; then
+            echo "No manifest updates to commit."
+            exit 0
+          fi
+          git commit -m "chore: regenerate scales manifest"
+          git push

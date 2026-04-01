@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "generatedAtIso": "2026-04-01T08:11:15Z",
+  "exercises": [
+    {
+      "id": "builtin-exercise:guitar:8_finger_chromatic_scale_tapping",
+      "name": "8 Finger Chromatic Scale Tapping",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-8 Finger Chromatic Scale Tapping-03-01-2011.gp",
+      "relativePath": "Misc. Scales-8 Finger Chromatic Scale Tapping-03-01-2011.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:a_minor_scale",
+      "name": "A Minor Scale",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-A Minor Scale-03-02-2026.gp",
+      "relativePath": "Misc. Scales-A Minor Scale-03-02-2026.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:blues_scales",
+      "name": "Blues Scales",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-Blues Scales-11-20-2025.gp",
+      "relativePath": "Misc. Scales-Blues Scales-11-20-2025.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:classic_repeating_licks_two",
+      "name": "Classic Repeating Licks Two",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-Classic Repeating Licks Two-12-12-2009.gp",
+      "relativePath": "Misc. Scales-Classic Repeating Licks Two-12-12-2009.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:d_minor_scale",
+      "name": "D Minor Scale",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-D Minor Scale-12-12-2009.gp",
+      "relativePath": "Misc. Scales-D Minor Scale-12-12-2009.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:e_bartok",
+      "name": "E Bartok",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-E Bartok-12-12-2009.gp",
+      "relativePath": "Misc. Scales-E Bartok-12-12-2009.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:e_major_scale",
+      "name": "E Major Scale",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-E Major Scale-12-12-2009.gp",
+      "relativePath": "Misc. Scales-E Major Scale-12-12-2009.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:finger_practice",
+      "name": "Finger Practice",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-Finger Practice-03-05-2013.gp",
+      "relativePath": "Misc. Scales-Finger Practice-03-05-2013.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:g_major_scale_exercise",
+      "name": "G Major Scale Exercise",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-G Major Scale Exercise-09-11-2010.gp",
+      "relativePath": "Misc. Scales-G Major Scale Exercise-09-11-2010.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:harmonic_minor",
+      "name": "Harmonic Minor",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-Harmonic Minor-12-12-2009.gp",
+      "relativePath": "Misc. Scales-Harmonic Minor-12-12-2009.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:lydian_shred_technique",
+      "name": "Lydian Shred Technique",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-Lydian Shred Technique-12-12-2009.gp",
+      "relativePath": "Misc. Scales-Lydian Shred Technique-12-12-2009.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:major_scales",
+      "name": "Major Scales",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-Major Scales-12-12-2009.gp",
+      "relativePath": "Misc. Scales-Major Scales-12-12-2009.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:penta_g",
+      "name": "Penta G",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-Penta G-09-11-2010.gp",
+      "relativePath": "Misc. Scales-Penta G-09-11-2010.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:pentatonic_major_scales",
+      "name": "Pentatonic Major Scales",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-Pentatonic Major Scales-10-16-2013.gp",
+      "relativePath": "Misc. Scales-Pentatonic Major Scales-10-16-2013.gp",
+      "sourceFormat": "gp"
+    },
+    {
+      "id": "builtin-exercise:guitar:rock_licks_two",
+      "name": "Rock Licks Two",
+      "instrumentName": "guitar",
+      "fileName": "Misc. Scales-Rock Licks Two-12-12-2009.gp",
+      "relativePath": "Misc. Scales-Rock Licks Two-12-12-2009.gp",
+      "sourceFormat": "gp"
+    }
+  ]
+}

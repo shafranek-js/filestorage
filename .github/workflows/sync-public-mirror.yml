@@ -1,0 +1,46 @@
+name: Sync Public Mirror
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '29 */3 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-public-mirror
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add authenticated mirror remote
+        env:
+          MIRROR_REPO_TOKEN: ${{ secrets.MIRROR_REPO_TOKEN }}
+        run: |
+          git remote add mirror "https://x-access-token:${MIRROR_REPO_TOKEN}@github.com/TestProductionStudio/filestorage.git"
+          git remote -v
+
+      - name: Fetch source branches
+        run: git fetch origin main gh-pages
+
+      - name: Push main to mirror
+        run: git push --force mirror refs/remotes/origin/main:refs/heads/main
+
+      - name: Push gh-pages to mirror
+        run: git push --force mirror refs/remotes/origin/gh-pages:refs/heads/gh-pages
